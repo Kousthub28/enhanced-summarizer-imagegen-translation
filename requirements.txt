@@ -1,0 +1,13 @@
+# 3A. Core NLP & diffusers
+!pip install sentencepiece huggingface_hub transformers
+!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+!pip install "diffusers[torch]" safetensors accelerate bitsandbytes
+
+# 3B. Gradio Blocks UI
+!pip install gradio  # v5.x
+
+# 3C. PDF parsing
+!pip install PyMuPDF
+
+# 3D. Lightweight TTS
+!pip install gTTS
